@@ -1,4 +1,3 @@
-import { Analytics } from "@vercel/analytics/react";
 import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
@@ -20,7 +19,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={jetBrainsMono.variable}>
-        <Analytics />
         <Header />
         <StairTransition />
         <PageTransition>{children}</PageTransition>
