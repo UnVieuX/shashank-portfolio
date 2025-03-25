@@ -90,7 +90,7 @@ const education = {
 const skills = {
   title: "My skills",
   description:
-    ,
+    "My technical expertise includes proficiency in Big Data technologies such as Apache Kafka, Apache Spark, and Hadoop. I am skilled in programming languages like Java, C++, and Python, with strong experience in Unix/Linux environments. I work extensively with workflow automation tools like Control-M, monitoring tools like Splunk and Grafana, and cloud platforms like AWS (S3). Additionally, I am proficient in version control systems like Git and documentation tools like Confluence. I also have experience with Spring Boot and integrating AI models into data solutions.",
   skillList: [
     {
       icon: <FaDatabase className="w-12 h-12" />,
@@ -162,9 +162,9 @@ const Resume = () => {
               <TabsContent value="experience" className="w-full">
                 <div className="flex flex-col gap-[30px] text-center xl:text-left">
                   <h3 className="text-4xl font-bold">{experience.title}</h3>
-                  <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+{/*                   <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
                     {experience.description}
-                  </p>
+                  </p> */}
                   <ScrollArea className="h-[400px]">
                     <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
                       {experience.items.map((item, index) => {
