@@ -79,7 +79,7 @@ const education = {
   icon: "/assets/resume/cap.svg",
   items: [
     {
-      institution: "Maulana Azad National Institute of Technology",
+      institution: "National Institute of Technology Bhopal",
       degree: "Bachelor of Technology",
       duration: "2018-2022",
       major: "Computer Science and Engineering"
