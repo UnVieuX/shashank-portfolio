@@ -47,5 +47,7 @@ const Home = () => {
   );
 };
 
+<Analytics />
+
 export default Home;
 
