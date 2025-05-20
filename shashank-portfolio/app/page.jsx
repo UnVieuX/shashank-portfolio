@@ -2,13 +2,13 @@ import Photo from "@/components/Photo";
 import Social from "@/components/Social";
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
-import { Analytics } from '@vercel/analytics/next';
+
 
 
 const Home = () => {
   return (
     <section>
-      <Analytics mode="production" />;
+
       <div className="container mx-auto h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           <div className="text-center xl:text-left order-2 xl:order-none">
