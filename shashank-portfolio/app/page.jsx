@@ -39,6 +39,7 @@ const Home = () => {
           </div>
           <div className="order-1 xl:order-none mb-8 xl:mb-0">
             <Photo />
+            <Analytics />
           </div>
         </div>
       </div>
@@ -47,6 +48,6 @@ const Home = () => {
   );
 };
 
-<Analytics />
+
 
 export default Home;
